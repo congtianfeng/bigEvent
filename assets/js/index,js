@@ -4,7 +4,7 @@ $(function() {
         // 获取用户个人信息函数
 
     function getUserInfo() {
-        let str = ''
+        // let str = ''
         $.ajax({
             method: 'GET',
             url: 'http://www.liulongbin.top:3007/my/userinfo',
