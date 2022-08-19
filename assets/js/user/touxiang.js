@@ -41,7 +41,8 @@ $(function() {
             data: { avatar: dataURL },
             success: function(res) {
                 if (res.status !== 0) return layer.msg('更换头像失败！')
-                console.log(window.parent);
+                console.log(window.parent.getUserInfo);
+                // 之前这个函数不生效是因为index.js中getUserInfo函数在jquery的入口函数中
                 window.parent.getUserInfo()
                 layer.msg('更换头像成功！')
 

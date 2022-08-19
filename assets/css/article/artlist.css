@@ -1,0 +1,75 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(242, 243, 245);
+    padding: 15px;
+}
+
+img {
+    width: 100%;
+}
+
+.layui-card .layui-form-item {
+    display: flex;
+    line-height: 48px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.layui-card .layui-form-item .layui-unselect {
+    margin-right: 5px;
+}
+
+.layui-card .layui-input-block {
+    width: 350px;
+    margin-left: 10px;
+}
+
+.layui-card2 .select {
+    display: flex;
+}
+
+.layui-card2 .layui-unselect {
+    width: 100%;
+}
+
+
+/* 封面容器的样式 */
+
+.cover-box {
+    display: flex;
+}
+
+
+/* 左侧裁剪区域的样式 */
+
+.cover-left {
+    width: 400px;
+    height: 280px;
+    overflow: hidden;
+    margin-right: 20px;
+}
+
+
+/* 右侧盒子的样式 */
+
+.cover-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/* 预览区域的样式 */
+
+.img-preview {
+    width: 200px;
+    height: 140px;
+    background-color: #ccc;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
